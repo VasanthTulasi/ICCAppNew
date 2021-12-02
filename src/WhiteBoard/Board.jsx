@@ -118,7 +118,7 @@ const Board = () => {
       drawLine(data.x0 * w, data.y0 * h, data.x1 * w, data.y1 * h, data.color);
     }
 
-    socketRef.current = io.connect('http://localhost:3001');
+    socketRef.current = io.connect('https://stormy-stream-77637.herokuapp.com/');
     socketRef.current.on('drawing', onDrawingEvent);
   },[]);
 
