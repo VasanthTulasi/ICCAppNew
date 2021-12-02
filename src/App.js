@@ -1,4 +1,4 @@
-import './App.scss';
+import './App.css';
 import Board from './WhiteBoard/Board';
 import firebase,{signInWithGoogle,auth} from './firebase';
 import React,{useState,useEffect} from 'react';

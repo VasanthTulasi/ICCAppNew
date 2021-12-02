@@ -1,4 +1,4 @@
-import './Board.scss';
+import './Board.css';
 import io from 'socket.io-client';
 import React, {useRef, useEffect} from 'react';
 
